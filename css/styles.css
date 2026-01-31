@@ -1,0 +1,344 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    line-height: 145%;
+    color: #010101;
+    margin: 0;
+    padding: 0;
+    background-color: #c9c9c9;
+    text-align: center;
+}
+
+h2 {
+    font-size: 180%;
+    line-height: 145%;
+    font-weight: normal;
+    margin: 35px 0 24px 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 100%;
+    color: #7a7a7a;
+    margin: 0;
+    padding: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+img {
+    border: none;
+}
+
+blockquote {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* SITE CONTAINER */
+#centre_container {
+    width: 886px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* HEADER */
+#header {
+    border: 1px solid #7a7a7a;
+    border-bottom: 0;
+    height: 102px;
+    background-image: url("../images/header_bg.jpg");
+    background-repeat: repeat-x;
+    margin: 11px 0 0 0;
+}
+
+#header_img {
+    float: left;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#header h1 a {
+    float: right;
+    padding: 0;
+    margin: 0;
+    height: 102px;
+    width: 216px;
+    display: block;
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+}
+
+#header h1 a span {
+    display: none;
+}
+
+/* MAIN SITE CONTAINER */
+#main_container {
+    margin: 0;
+    margin-bottom: 10px;
+    border: 1px solid #7a7a7a;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+#nav {
+    float: left;
+    width: 240px;
+}
+
+#content {
+    margin: 0 0 0 250px;
+    padding: 0 31px 20px 0;
+}
+
+#content #page_break {
+    width: 100%;
+    border-top: 1px dotted #ccc;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#content .left {
+    float: left;
+}
+
+#content .right {
+    float: right;
+}
+
+#content .grey {
+    color: #666;
+}
+
+#content a.top {
+    color: #666;
+    text-decoration: underline;
+}
+
+#content a.top:hover {
+    color: #999;
+}
+
+#content a {
+    color: #478199;
+    text-decoration: underline;
+}
+
+#content a:hover {
+    color: #666;
+}
+
+#content #homepage {
+    margin-bottom: 20px;
+}
+
+#content #furtherreadingtitle,
+#content #news_title {
+    font-size: 160%;
+    margin-top: 10px;
+}
+
+#content #furtherreadingcontent {
+    padding: 10px;
+}
+
+#content #furtherreadingcontent div {
+    padding: 2px 0;
+}
+
+#content .news_item {
+    padding: 15px 0;
+}
+
+#content .news_item a {
+    font-weight: bold;
+}
+
+/* SLIDESHOW */
+#slideshow {
+    overflow: hidden;
+}
+
+#slideshow img {
+    width: 100%;
+    display: block;
+}
+
+/* FOOTER */
+#ftr {
+    text-align: right;
+    color: #7a7a7a;
+    margin: 0 0 10px 0;
+    overflow: hidden;
+}
+
+#ftr #copyright {
+    float: left;
+}
+
+#ftr ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#ftr ul li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+#ftr ul li a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+#ftr ul li a:hover {
+    text-decoration: underline;
+}
+
+/* SITE NAVIGATION */
+ul#navmain {
+    list-style: none;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+ul#navmain li,
+ul#navsub li {
+    padding: 0;
+    margin: 0;
+}
+
+ul#navmain li a {
+    display: block;
+    background-color: #e3e3e3;
+    margin: 3px 0;
+    padding: 6px 0 6px 17px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    width: 200px;
+    border-right: 4px solid #e3e3e3;
+}
+
+ul#navmain li a:hover,
+ul#navmain li a.nav-active,
+ul#navmain li a.selected {
+    border-right: 4px solid #7a7a7a;
+}
+
+/* SOCIAL LINKS */
+#social_links {
+    margin: 10px 0 0 9px;
+}
+
+#social_links a {
+    display: block;
+    margin-bottom: 3px;
+}
+
+#social_links img {
+    display: block;
+}
+
+/* CONTACT DETAILS */
+#contactdetails {
+    width: 200px;
+    background-color: #efefef;
+    border: solid 1px #e3e3e3;
+    margin-left: 9px;
+    margin-top: 10px;
+}
+
+#contactdetails div {
+    padding: 10px;
+}
+
+#contactdetails h3 {
+    margin-bottom: 5px;
+}
+
+#contactdetails p {
+    margin: 5px 0;
+    font-size: 90%;
+}
+
+#contactdetails a {
+    color: #478199;
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+/* SITE SUB NAVIGATION */
+ul#navsub {
+    list-style: none;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+ul#navsub span.inner {
+    display: block;
+    background-image: url("../images/nav_dot.gif");
+    background-repeat: no-repeat;
+}
+
+ul#navsub li a {
+    color: #7a7a7a;
+    background-color: #f5f5f5;
+    font-weight: normal;
+    border-right: 4px solid #f5f5f5;
+}
+
+ul#navsub li a:hover,
+ul#navsub li a.nav-active {
+    background-color: #ebebeb;
+    border-right: 4px solid #d4d4d4;
+}
+
+/* PANELS GRID */
+#panels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#panels .panel {
+    display: block;
+}
+
+#panels .panel img {
+    display: block;
+    max-width: 185px;
+    height: auto;
+}
+
+/* FURTHER MEDIA LINKS */
+ul.further_reading {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.further_reading li {
+    margin: 3px 0 0 0;
+    padding: 0;
+}
+
+ul.further_reading li a {
+    color: #000;
+}
